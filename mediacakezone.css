@@ -252,7 +252,22 @@ width: 98%;
 
 }
 @media(max-width:466px){
-
+    .wrapper {
+        display: block;
+        font-size: 22px;
+        padding-right: 10px;
+    }
+    .text-pricing h5 {
+    padding: 8px 0px;
+    font-size: 18px;
+}
+.discount-section h2 {
+    font-size: 28px;
+}
+.text-pricing p {
+    font-size: 18px;
+    color: #666666;
+}
 .texts h3{
 font-size: 30px;
 }
@@ -294,17 +309,16 @@ width: 100%;
     .headings h2{
     font-size: 45px;
     }
-
-
-
-
-
-
-
-
-
-
-
+    .hero-section {
+        background-image: url(imges/hero.jpg);
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+.ab-sec {
+        width: 90%;
+        margin: 0 auto;
+    }
 
     .discount-containers {
         flex-direction: column;
@@ -365,6 +379,12 @@ width: 100%;
         width: 65%;
     }
 }
+@media(max-width:425px){
+    .headings p {
+        color: white;
+        width: 45%;
+    }
+}
 @media(max-width:368px){
   .paras-pri {
         border: 1px solid white;
@@ -376,11 +396,14 @@ width: 100%;
         color: white;
         padding: 10px 25px;
     }
+    .discount-section h2 {
+    font-size: 28px;
+}
 }
 @media(max-width:320px){
     .paras-pri {
         border: 1px solid white;
-        padding: 9px 5px;
+    padding: 10px 86px;
         flex-direction: column;
     }
         .pricing-box {
@@ -400,14 +423,30 @@ flex-direction: column;
     }
     .wrapper {
         display: block;
-        font-size: 30px;
+        font-size: 26px;
         padding-right: 10px;
     }
     .logo i {
         font-size: 20px;
         color: #ff9900;
     }
-
+    .discount-section h2 {
+    font-size: 24px;
+}
+.headings h2 {
+        font-size: 35px;
+    }
+    .headings p {
+    color: white;
+    width: 50%;
+    font-size: 15px;
+    }
+    .btns-offer {
+    width: 60%;
+}
+.headings h3 {
+        font-size: 32px;
+    }
 }
 
 

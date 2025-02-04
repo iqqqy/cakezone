@@ -83,6 +83,7 @@ font-size: 18px;
     justify-content: center;
     position: sticky;
     top: 0;
+    z-index: 4;
 }
 .navbar ul{
     display: inline;
@@ -312,6 +313,8 @@ font-size: 18px;
     width: 100%;
     height: 66px;
 }
+
+
 .box-image h5{
     background-color: black;
     color: #f1a006;
@@ -396,33 +399,49 @@ color: black;
     display: flex;
     justify-content: space-between;
     width: 85%;
-    align-items: center;
     margin: 20px auto;
 
 }
 .team-box{
     width: 30%;
-    background-color: black;
+    transition: 4s ease-in-out;
 }
 .team-box img{
     width: 100%;
+    
 }
 .team-box-text{
     background: black;
     margin-top: -5px;
     text-align: center;
     color: white;
+    padding: 10px;
 }
 .box-text{
     border: 1px solid white;
     padding: 10px 40px;
     text-align: center;
 }
-.box-text h5{
+.inner{
+    background-color: rgb(249 249 249 / 75%);
+    height: 346px;
+    margin-top: -422px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: none;
+    transition: 1s;
+}
+.team-box:hover .inner{
+    display:flex;
+}
+.team-box-text h5{
     font-size: 25px;
     color: #ff9900;
 }
-.box-text p{
+.team-box-text p{
     font-size: 18px;
     color: white;
     padding-top: 8px;
@@ -575,6 +594,8 @@ padding: 30px 10px 80px 10px;;
     display: flex;
     gap: 10px;
     margin-top: 20px;
+    margin: 0 auto;
+
 }
 .one{
     background-color: #f1a006;
